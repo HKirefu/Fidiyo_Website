@@ -1,0 +1,42 @@
+.contact-container
+  padding-top: 300px
+  padding-left: 170px
+  @media all and (max-width: 839px)
+    padding-left: 30px
+    padding-top: 100px
+
+  img
+    width: 150px
+    float: right
+    margin-right: 150px
+    margin-top: 50px
+    @media all and (max-width: 839px)
+      float: none
+  .content, .divider
+    float: right
+  .content
+    text-align: left
+  .material-icons
+    display: inline-block
+    vertical-align: middle
+    transform: scale(0.8)
+  h2
+    font-size: 54px
+    margin-bottom: 50px
+  p
+    font-size: 16px
+    margin-bottom: 15px 
+  
+  .right-cell
+    position: relative
+    &:after
+      width: 1px
+      height: 400px
+      display: block
+      content: ''
+      background: #dadada
+      position: absolute
+      right: 50px
+      top: -50%
+      @media all and (max-width: 839px)
+        display: none
