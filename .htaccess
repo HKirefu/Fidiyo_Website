@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.fidiyo.com [NC]
+RewriteRule ^(.*)$ https://fidiyo.com/$1 [L,R=301]
